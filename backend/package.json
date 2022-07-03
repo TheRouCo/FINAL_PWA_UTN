@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-session": "^1.17.3",
+    "hbs": "^4.2.0",
+    "knex": "^1.0.5",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.18"
+  },
+  "name": "compras",
+  "version": "1.0.0",
+  "description": "Sistema de Compras y Gestión de Presupuesto Básico",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRouCo/compras.git"
+  },
+  "keywords": [
+    "Compras",
+    "Gestion",
+    "Presupuesto"
+  ],
+  "author": "Guillermo Paladini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRouCo/compras/issues"
+  },
+  "homepage": "https://github.com/TheRouCo/compras#readme"
+}
